@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build and test output
+dist/
+**/dist/
+dist-ssr/
+build/
+**/build/
+coverage/
+**/coverage/
+
+# Runtime uploads and model caches
+uploads/
+**/uploads/
+.cache/
+**/.cache/
+.hf/
+**/.hf/
+.huggingface/
+**/.huggingface/
+**/cache/huggingface/
+**/.vite/
+**/.next/
+**/.parcel-cache/
+
+# Logs, temporary files, and local archives
+logs/
+**/logs/
+*.log
+*.pid
+*.seed
+*.tmp
+*.tmp.*
+*.temp
+*.sw?
+*.bak
+*.orig
+*.rej
+/client.zip
+
+# Preserve existing local/editor ignores
+*.local
+.DS_Store
+Thumbs.db
+server/scripts/resetUserPassword.js
